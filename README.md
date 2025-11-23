@@ -1,5 +1,5 @@
-💰 Salary Prediction Model
-🎯 Project Overview
+# 💰 Salary Prediction Model
+# 🎯 Project Overview
 This repository contains a comprehensive Machine Learning solution for predicting employee salaries. The project is structured as a Regression task, leveraging various employment and demographic features to estimate the salary_in_usd. The core goals include:
 
 Establishing a robust preprocessing pipeline to handle categorical and high-cardinality features.
@@ -8,7 +8,7 @@ Developing a highly accurate non-linear regression model.
 
 Providing reproducible code for salary forecasting and market analysis.
 
-💾 Dataset Details
+# 💾 Dataset Details
 The model is trained on the Dataset salary 2024.csv file, which captures employee compensation data across multiple years and countries.
 
 Key Features:
@@ -22,7 +22,7 @@ Nominal Features: employment_type (e.g., Full Time, Contract)
 
 High-Cardinality Features: job_title, company_location
 
-🛠 Preprocessing and Feature Engineering
+# 🛠 Preprocessing and Feature Engineering
 The quality of the input data is critical for high accuracy. The following transformations were applied to the raw data:
 
 Categorical Feature Handling:
@@ -40,7 +40,7 @@ Company Location: Target Encoding was used, replacing each location with the ave
 Numerical Preparation:
 Scaling: After the train/test split, all numerical features were scaled using StandardScaler to normalize their distribution, ensuring equal contribution to the model's loss function.
 
-🧠 Model Selection and Training
+# 🧠 Model Selection and Training
 Algorithm Choice:
 The problem was approached using Gradient Boosting techniques, which are highly effective for structured data regression problems due to their ability to capture complex, non-linear feature interactions.
 
